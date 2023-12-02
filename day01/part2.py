@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 
-
-
 def main(input_file):
 	with open(input_file) as f:
 		input_lines = [line.rstrip() for line in f.readlines()]
 	result = 0
 	nrs = ["zero","one","two","three","four","five","six","seven","eight","nine"]
-	
 	
 	for line in input_lines:
 		
