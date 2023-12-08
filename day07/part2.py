@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import itertools
 
 def calc_power(house):
 	equals = list()
