@@ -6,7 +6,6 @@ def calc_delta(expr):
 	for el in expr[1:]:
 		new_expr.append( el - prevel )
 		prevel = el
-	
 	return new_expr
 		
 def main(input_file):
