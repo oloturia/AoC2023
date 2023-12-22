@@ -21,8 +21,7 @@ def exploreTree(node,limits):
 				new_limits[r[0]+'t'] = quota - 1
 			exploreTree(r.split(':')[1],new_limits)
 			if limits[r[0]+'l'] <= quota:
-				limits[r[0]+'l'] = quota
-				
+				limits[r[0]+'l'] = quota	
 		elif '>' in r:
 			quota = int(r.split('>')[1].split(':')[0])
 			new_limits = limits.copy()
