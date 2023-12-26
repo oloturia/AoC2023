@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from sympy.solvers import solve
-from sympy import symbols, Symbol, Eq
+from sympy import symbols, Eq
 
 def main(input_file):
 	k = list()
