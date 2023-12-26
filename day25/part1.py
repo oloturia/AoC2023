@@ -9,9 +9,7 @@ def main(input_file):
 	
 	G = nx.Graph()
 	for top,linked in linked_to.items():
-		G.add_node(top)
 		for link in linked:
-			G.add_node(link)
 			G.add_edge(top,link,capacity=1.0)
 
 	path=nx.all_pairs_shortest_path_length(G)
